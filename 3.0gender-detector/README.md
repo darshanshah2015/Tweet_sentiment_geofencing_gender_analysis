@@ -35,7 +35,7 @@ And then:
 
 ##Note
 
-After you are done installing <a href= "https://github.com/grantjenks/wordsegment"> Word segment</a> and <a href="https://github.com/malev/gender-detector"> gender detector <br>
+After you are done installing <a href= "https://github.com/grantjenks/wordsegment"> Word segment</a> and <a href="https://github.com/malev/gender-detector"> gender detector</a> <br>
 you do the following:
 1.Copy the test_gender.py and.TSV file in the gender detector folder as I have done.<br>
 2.once you run the test_gender.py file, it will extract the usernames from .TSV file,<br>
