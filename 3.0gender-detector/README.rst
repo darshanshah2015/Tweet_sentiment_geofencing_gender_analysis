@@ -37,9 +37,9 @@ And then:
 
 After you are done installing <a href= "https://github.com/grantjenks/wordsegment"> Word segment</a> and <a href="https://github.com/malev/gender-detector"> gender detector <br>
 you do the following:
-1.Copy the test_gender.py and.TSV file in the gender detector folder as I have done.
-2.once you run the test_gender.py file, it will extract the usernames from .TSV file,
-3. remove the unrequired additions to the username( eg hero_111 to hero) and use the word segment module<br>
-to break it into words(like TheIncerdibleHulk=> 'the', 'Incredible', 'hulk') and then use these words to predict gender.<br>
-all the required files are supplied. Before and after of usernames are printed in names.txt and names_processed.txt.
+*Copy the test_gender.py and.TSV file in the gender detector folder as I have done.
+*once you run the test_gender.py file, it will extract the usernames from .TSV file,
+*remove the unrequired additions to the username( eg hero_111 to hero) and use the word segment module
+*to break it into words(like TheIncerdibleHulk=> 'the', 'Incredible', 'hulk') and then use these words to predict gender.
+*all the required files are supplied. Before and after of usernames are printed in names.txt and names_processed.txt.
 
