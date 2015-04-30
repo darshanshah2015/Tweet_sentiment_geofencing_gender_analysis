@@ -5,7 +5,7 @@ Simple example scripts for Twitter data collection with [Tweepy](http://www.gith
 
 #Getting started
 To collect data you need a Twitter account and a Twitter application. Assuming you already have a Twitter account use the following instructions to create a Twitter application
-
+If intrested in the whole process go to the steps 
 ##Twitter application
 
 1. Open a web browser and go to https://apps.twitter.com/app/new
@@ -65,7 +65,7 @@ streaming.py is a more production ready file. It does not print tweets as they a
 3. Open FILTER in a text editor and enter the terms you wish to track one per line. Save and close it.
 4. Open streaming.py and set the name of the directory you created
 5. Copy streaming.py, the output directory (outputDir), tweepy, and anything else to a server that is always on and connected
-6. Start collecting tweets with
+6. Start collecting tweets with streaming .py
 ```
     nohup python streaming.py >> logfile 2>> errorfile
 ```    
