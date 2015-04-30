@@ -6,7 +6,7 @@
 3.0 gender detector detects the gender to the user based on their user name.
 
 3.1 Word segment is required for gender detection, it segments the username into feedable 'human' names.
-##before executing, change the name of the file, 2015-04-30.txt to 2015-04-30.json, and run the data2spreadsheet.py file with it( how to do is in folder 1.0), this is the ##sample file I have stored the tweets in. It will then be converted into a spreadsheet.
+##before executing, change the name of the file, 2015-04-30.txt to 2015-04-30.json, and run the data2spreadsheet.py file with it( how to do is in folder 1.0), this is the sample file I have stored the tweets in. It will then be converted into a spreadsheet.
 
 I have provided the outputs I got throughout the document.
 
