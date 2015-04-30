@@ -6,7 +6,7 @@
 3.0 gender detector detects the gender to the user based on their user name.
 
 3.1 Word segment is required for gender detection, it segments the username into feedable 'human' names.
-# before executing change the name of 2015-04-30.txt to 2015-04-30.json, this the sample file i have stored the tweets in.
+# before executing change the name of 2015-04-30.txt to 2015-04-30.json, this is the sample file I have stored the tweets in.
 
 I have provided the outputs I got throughout the document.
 
