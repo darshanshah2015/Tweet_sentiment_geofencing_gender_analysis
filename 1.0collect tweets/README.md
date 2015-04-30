@@ -17,7 +17,7 @@ you need access tokens and consumer keys to access twitter data, Currently, I ha
 6. A .TSV file wil be generated in the output folder, these are classified tweets.
 7.Copy the .TSV file.
 8.Our work in this folder is done. Move onto the next folder.
-
+## A folder 'output' is missing, it contained the output spreadsheet I provided, therefore before executing, change the name of the file, 2015-04-30.txt to 2015-04-30.json, and run the data2spreadsheet.py file with it, this is the sample file I have stored the tweets in. It will then be converted into the required spreadsheet.
 
 ##Twitter application
 
