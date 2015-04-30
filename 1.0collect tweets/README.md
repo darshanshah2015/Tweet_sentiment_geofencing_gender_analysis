@@ -7,6 +7,7 @@ Simple example scripts for Twitter data collection with [Tweepy](http://www.gith
 To collect data you need a Twitter account and a Twitter application. Assuming you already have a Twitter account use the following instructions to create a Twitter application
 If you are intrested in learing the whole process go to the Twitter application heading and read further, the basic steps of the process are:
 you need access tokens and consumer keys to access twitter data, Currently, I have supplied mine for SocialCops people ;)
+
 ##To get the output do the following:
 1. Write the hashtag you want to search in tweets/FILTER.txt, currenlty it is gameofthrones.
 2. Run streaming.py.
