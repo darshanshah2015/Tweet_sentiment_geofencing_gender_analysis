@@ -5,6 +5,19 @@ Simple example scripts for Twitter data collection with [Tweepy](http://www.gith
 
 #Getting started
 To collect data you need a Twitter account and a Twitter application. Assuming you already have a Twitter account use the following instructions to create a Twitter application
+If you are intrested in learing the whole process go to the Twitter application heading and read further, the basic steps of the process are:
+you need access tokens and consumer keys to access twitter data, Currently, I have supplied mine for SocialCops people ;)
+##To get the output do the following:
+1. Write the hashtag you want to search in tweets/FILTER.txt, currenlty it is gameofthrones.
+2. Run streaming.py.
+3. you will start receiving a tweets in a json file in tweets folder.
+4. copy that file and paste it where data2spreadsheet.py file is.
+5. execute data2spreadsheet.py like:
+    python data2spreadsheet.py output.json    , where output.json is the file copied from the tweets folder.
+6. A .TSV file wil be generated in the output folder, these are classified tweets.
+7.Copy the .TSV file.
+8.Our work in this folder is done. Move onto the next folder.
+
 
 ##Twitter application
 
@@ -65,7 +78,7 @@ streaming.py is a more production ready file. It does not print tweets as they a
 3. Open FILTER in a text editor and enter the terms you wish to track one per line. Save and close it.
 4. Open streaming.py and set the name of the directory you created
 5. Copy streaming.py, the output directory (outputDir), tweepy, and anything else to a server that is always on and connected
-6. Start collecting tweets with
+6. Start collecting tweets with streaming .py
 ```
     nohup python streaming.py >> logfile 2>> errorfile
 ```    
